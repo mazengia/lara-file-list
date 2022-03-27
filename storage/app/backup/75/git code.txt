@@ -1,0 +1,7 @@
+Steps to copy remote branch
+1. git fetch
+2. git switch -c <branch name> <remote name>/<remote branch>
+
+fatal: refusing to merge unrelated histories
+
+	=>git pull --allow-unrelated-histories
